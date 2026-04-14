@@ -177,6 +177,7 @@ ol {
   display: flex;
   flex-direction: row;
   gap: 15px;
+  width: fit-content;
 }
 
 .search-form__fieldset {
@@ -189,10 +190,6 @@ ol {
   align-items: center;
   gap: 5px;
   cursor: pointer;
-}
-
-.search-form__checkbox-list {
-  width: fit-content;
 }
 
 .search-form__textfield {
